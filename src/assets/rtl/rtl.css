@@ -1,0 +1,30 @@
+body[dir="rtl"] * sidebar-menu * ul{
+    padding-inline-start: 0px !important;
+}
+body[dir="rtl"]{
+     text-align: right !important;
+    
+}
+body[dir="rtl"].sidebar-open * .content-wrapper{
+ margin-left: 0px !important;
+    margin-right: 250px !important; 
+}
+body[dir="rtl"].sidebar-collapse * .content-wrapper{
+ margin-left: 0px !important;
+    margin-right: 70px !important; 
+}
+body[dir="rtl"].sidebar-open * .main-header{
+    margin-right: 250px !important; 
+    margin-left: 0px !important; 
+}
+body[dir="rtl"].sidebar-collapse * .main-header{
+    margin-right: 70px !important; 
+    margin-left: 0px !important; 
+}
+body[dir="rtl"] * .ml-auto{
+    margin-left: 10px !important;
+    margin-right: auto!important;
+}
+body[dir="rtl"] * .dropdown-menu-right{
+    inset: 100% auto auto 0px !important;
+}
